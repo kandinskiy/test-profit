@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="favicon.ico">
+  <title>Основа проекта для верстки</title>
+  <link href="css/normalize.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="wrapper">
+
+  <header class="header">
+    <div class="header-description">
+      <div class="header-description__logo">
+        <a href="/" title=""><img src="images/logo.svg" alt=""></a>
+      </div>
+      <div class="header-description__text">
+        Развитие отделов продаж по всей<br>
+        России с гарантией роста выручки<br>
+        <span>Работаем с 2016 года</span>
+      </div>
+    </div>
+
+    <div class="header-rating">
+      <div class="header-rating__stars">
+        <svg width="11" height="11">
+          <use xlink:href="#star"></use>
+        </svg>
+        <svg width="11" height="11">
+          <use xlink:href="#star"></use>
+        </svg>
+        <svg width="11" height="11">
+          <use xlink:href="#star"></use>
+        </svg>
+        <svg width="11" height="11">
+          <use xlink:href="#star"></use>
+        </svg>
+        <svg width="11" height="11">
+          <use xlink:href="#star"></use>
+        </svg>
+        <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+          <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 11" id="star">
+            <path d="M4.67513 0.953586C5.07234 0.374013 5.92766 0.374014 6.32487 0.953586L7.23866 2.28692C7.36869 2.47665 7.56016 2.61575 7.78078 2.68079L9.33123 3.13784C10.0052 3.3365 10.2695 4.14997 9.84103 4.70683L8.85533 5.98792C8.71507 6.17022 8.64194 6.3953 8.64826 6.62522L8.6927 8.24103C8.71202 8.94338 8.02004 9.44613 7.35803 9.21072L5.83505 8.66914C5.61833 8.59208 5.38167 8.59208 5.16495 8.66914L3.64197 9.21072C2.97995 9.44613 2.28798 8.94338 2.3073 8.24102L2.35174 6.62522C2.35806 6.3953 2.28493 6.17022 2.14467 5.98792L1.15897 4.70683C0.730506 4.14997 0.994818 3.3365 1.66877 3.13784L3.21922 2.68079C3.43985 2.61575 3.63131 2.47665 3.76134 2.28692L4.67513 0.953586Z" fill="#FBF376"/>
+          </symbol>
+        </svg>
+      </div>
+      <div class="header-rating__google">
+        Рейтинг 4,9 в Google
+      </div>
+      50+ отзывов
+    </div>
+
+    <div class="header-address">
+      <div class="header-address__map">
+        <img src="images/header-map.png" alt="">
+      </div>
+      <div>
+        <a href="" title="Выбрать город" class="header-address__city header-city">
+          <span class="header-city__icon">
+            <img src="images/icon-map.svg" alt="">
+          </span>
+          <span class="header-city__name">Екатеринбург</span>
+        </a>
+        <div>ул. Ткачей 23</div>
+        <div class="header-address__time">Ежедневно с 9 до 20</div>
+      </div>
+    </div>
+
+    <div class="header-director">
+      <div class="header-director__photo">
+        <img src="images/director-photo.png" alt="">
+      </div>
+      <div class="header-director__text">
+        <div class="header-director__name">
+          Игорь Николаевич
+        </div>
+        <div class="header-director__post">
+          Генеральный директор
+        </div>
+        <div class="header-director__link">
+          <a href="" title="Написать директору">Написать директору</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-contacts">
+      <div class="header-contacts__telegram">
+        Напишите в
+        <a href="tg://resolve?domain=kan_nik" title="Написать в Telegram">
+          <img src="images/icon-telegram.svg" alt=""><span>Telegram</span>
+        </a>
+      </div>
+      <div class="header-contacts__phone">
+        <a href="tel:+79238884587" title="Позвонить" class="phone-number">+7 923 888-45-87</a>
+      </div>
+      <div class="header-contacts__link">
+        <a href="" title="Перезвонить">Перезвоните мне</a>
+      </div>
+    </div>
+
+    <a href="" title="Стать нашим партнером" class="header-partners">
+      Стать нашим партнером
+    </a>
+
+    <a href="" title="Срочный ремонт" class="header-repairs">
+      <img src="images/header-repairs.png" alt="Срочный ремонт">
+    </a>
+  </header>
+
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a href="" title="Главная" class="nav__link">Главная</a>
+      </li>
+      <li class="nav__item">
+        <a href="" title="Наша команда" class="nav__link nav__link_green">Наша команда</a>
+      </li>
+      <li class="nav__item">
+        <a href="" title="Наши услуги" class="nav__link">
+          Наши услуги
+          <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.16064 6.125L5.16064 9.125L8.16064 6.125" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <div class="nav__drop-down drop-down">
+          <div class="drop-down__item">
+            <a href="" title="Аттестация" class="drop-down__link">Аттестация</a>
+          </div>
+          <div class="drop-down__item">
+            <a href="" title="Обучение" class="drop-down__link">Обучение</a>
+          </div>
+          <div class="drop-down__item">
+            <a href="" title="Повышение квалификации" class="drop-down__link">Повышение квалификации</a>
+          </div>
+          <div class="drop-down__item">
+            <a href="" title="Готовые решения" class="drop-down__link">Готовые решения</a>
+          </div>
+          <div class="drop-down__item">
+            <a href="" title="Консультации" class="drop-down__link">Консультации</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav__item">
+        <a href="" title="Наши решения" class="nav__link">
+          Наши решения
+          <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.16064 6.125L5.16064 9.125L8.16064 6.125" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="" title="Отзывы" class="nav__link">Отзывы <span class="nav__new">+3</span></a>
+      </li>
+      <li class="nav__item">
+        <a href="" title="Записаться на консультацию" class="nav__link">Записаться на консультацию</a>
+      </li>
+      <li class="nav__item">
+        <a href="" title="Контакты" class="nav__link">Контакты</a>
+      </li>
+    </ul>
+  </nav>
+
+</div>
+
+</body>
+</html>

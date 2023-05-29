@@ -1,0 +1,24 @@
+/* Адаптив */
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1560px;
+
+
+/* Шрифты */
+$fontRegular: "Manrope-Regular", sans-serif;
+$fontBold: "Manrope-Bold", sans-serif;
+$fontSemibold: "Manrope-Semibold", sans-serif;
+$fontExtraBold: "Manrope-ExtraBold", sans-serif;
+
+/* Основные цвета */
+$colorDefault: #505050;
+$colorGray: #999999;
+$colorGreen: #46D068;
+$colorBlue: #62A3BD;
+
+/* Цвета элементов */
+$bodyBackground: #ffffff;
+$textColorDefault: $colorDefault;
+$textColorGray: $colorGray;
+$textColorGreen: $colorGreen;
+$textColorBlue: $colorBlue;
